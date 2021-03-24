@@ -1,0 +1,66 @@
+escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. 
+
+
+Variables:
+Una variable es un espacio de la memoria donde se puede almacenar/guardar un valor especifico para usar mas tarde.
+La variable, es decir, el "espacio-memoria" se puede ir variando- modificandose a lo largo de la ejecucion d eun programa.
+Los valores que alamcenemos en una variable pueden ser de distintos tipos de valores como: un número, texto, listado de números, etc.
+
+Strings:
+el string es un tipo de variable de JavaScript que consiste en un conjuto de palabras/numeros/simbolos,etc que se encuentran
+entre comillas ( " " ). Generalmente este tipo de variable se suele utilizar para utilizar textos/palabras en el programa.
+
+Funciones (argumentos, return):
+
+Una funcion, en programacion consiste en un conjunto de instrucciones para la realizacion de una tarea especifica con una o mas variables.
+Se utilizar para "ahorrar codigo" ya que una misma funcion se puede reutilizar a lo largo de todo el programa solo con llamarla, sin necesidad de reescribir el codigo.
+Tambien permiten tener un codigo mas ordenado, de mejor entendimiento y en el que sea mas facil y rapido realizar modificaciones
+
+COMO ESCRIBIR UNA FUNCION?
+1)	Comenzar con la palabra clave function, esto le indica al programa que lo que sigue es una función y que debe tratarse como tal
+2)	Después de eso viene el nombre de la función --> Debe tener un nombre en minúscula y sin espacios.
+3)	Luego viene un paréntesis abierto y uno cerrado (ahí ira el parámetro, si es necesario )  
+4)	Y finalmente, entre llaves  el código a ejecutar.
+
+Por ej: 
+function nombreDeLaFuncion(parametro){ instrucciones 
+}
+
+Una vez que declaramos la función podemos invocarla/llamarla en cualquier otra parte del código, escribiendo su nombre 
+y finalizar con () 
+Por ej: console.log(nombreDeLaFuncion());
+
+
+ARGUMENTOS/PARAMETROS: es la informacion que viene desde "afuera" de una funcion y que se usa dentro de ella.
+Una funcion puede tener o no parametros.
+
+RETURN:
+es lo que devuelve la función. Es decir, es lo que figura al llamar la funcion en el programa. 
+El RETURN ayuda a ahorrar la definición de una variable dentro de la función.
+Si es neceario usar el reusltado de una funcion luego, este se puede guardar en una variable.
+
+
+
+
+Declaraciones if:
+ La Declaraciones If son estructuras sintácticas o "formulas" que sirven para tomar una decisión a partir de una condición.Por ej:
+Si ocurre tal <condición> entonces se debe realizar tal  <operación>
+Para esto usaremos la palabra clave if y los operadores >, <, =, <=, <=
+
+SE escribe:
+If (condición) { operación } 
+else if (condicion){operacion }
+else{operacion }; 
+Si la condición se cumple (es decir, si su valor es TRUE) se ejecutan todas las instrucciones que se encuentran dentro de {…}
+Si la condicion no se cumple, se pasa a la segunda condicion (si esta se cumple, se ejecuta la operacion que esta entre las llavez que le siguen)
+si ninguna de esa condiciones se cumple, se ejecuta la operacion que le sigue a la palagra "else"
+
+
+Valores booleanos (true, false)
+
+Las variables booleanas son las que solo tienen dos valores, true o false (palabras clave en JS) 
+No se puede utilizar para almacenar números y tampoco permite guardar cadenas de texto.
+Estas variables se usan para almacenar información del tipo sí / no, cumple / no cumple, verdadero / falso, existe / no existe, es decir, información que únicamente puede tener dos estados.
+
+Estas variables se suelen utilizar para evaluar si se cumplen condiciones mediante instrucciones if else.
+
