@@ -5,9 +5,14 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 /* Ejercicio 1: Centrar el texto en un span */
 
+
 /* Arrancaremos este ejercicio por vos: */
 #ejercicioUno {
-
+    
+        display: block;
+        text-align: center;
+        
+    
 }
 
 
@@ -15,24 +20,78 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 /* Acá va tu código */
 
-
+#ejercicioDos{
+    display: none;
+}
 
 /* Ejercicio 3: */
 
 /* Acá va tu código */
 
-
+#ejercicioTres{
+    position: relative;
+    margin: 200px;
+    bottom: 100px;
+}
 
 /* Ejercicio 4: */
 
 /* Acá va tu código */
-
+#ejercicioCuatro{
+    position: fixed;
+    left: 0px;
+    top:0px;
+}
 
 
 /* Ejercicio 5: */
 
 /* Acá va tu código */
 
+#ejercicioCinco{
+    display:flex;
+    flex-direction: row-reverse;
+    flex: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
 
+#spanHeader1{
+    flex-grow: 1; /*para que todos los elem ocupen el mismo espacio*/
+    
+}
+#spanHeader2{
+    flex-grow: 1; /*para que todos los elem ocupen el mismo espacio*/
+    
+}
 
-/* Ejercicio 6. */
+#imgHeader{
+    flex-grow: 1;
+    
+}
+
+/* Ejercicio 7. */
+
+#ejercicioSiete{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#elementoUno{
+    align-self:flex-end;
+    
+}
+
+#elementoCuatro{
+    align-self: flex-start;
+}
+#elementoDos{
+    margin: 50px;
+}
+
+#elementoTres{
+    align-content: center;
+    padding: 50px;
+}
